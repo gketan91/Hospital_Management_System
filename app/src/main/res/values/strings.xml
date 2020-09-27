@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Hospital</string>
+    <string name="addgroup">Add Group</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="submit">Submit</string>
+    <string name="signin">Sign In</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="allreadyhaveaccount">All Ready Have Account? Please Log In</string>
+    <string-array name="spinner">
+        <item>User</item>
+        <item>Doctor</item>
+        <item>Admin</item>
+    </string-array>
+    <string-array name="Reg_spinner">
+        <item>User</item>
+        <item>Doctor</item>
+    </string-array>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ketan_studio.hospital">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/red"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/red"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SeeAppinmentDoctorActivity"></activity>
+        <activity android:name=".ConfirmBooking" />
+        <activity android:name=".Doctor_Choose_Activity" />
+        <activity android:name=".ChosoeSpecification_Activity" />
+        <activity android:name=".Doctor.DoctorHomePage" />
+        <activity android:name=".Doctor.ExtraDoctorInfo" />
+        <activity android:name=".Admin_Doctor_Activity" />
+        <activity android:name=".Specification_Activity" />
+        <activity android:name=".UserList_Activity" />
+        <activity android:name=".Admin_Activity" />
+        <activity android:name=".Register_Activity" />
+        <activity android:name=".Login_Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
